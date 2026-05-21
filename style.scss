@@ -57,10 +57,7 @@ body{
         h1{
             span{
                 font-weight: 200;
-            }
-            p{
-                font-weight: 600;
-                text-align: left;
+                display: block;
             }
         }
 
@@ -95,7 +92,7 @@ main{
             border-radius: 0.4em;
 
             h2{
-                font-weight: 700;
+                font-weight: 600;
             }
 
             img{
@@ -143,7 +140,6 @@ main{
 
         .cardContainer{
             width: 100%;
-            padding: 10%;
             display: grid;
             gap: 2em;
             padding: 2em 8em;
